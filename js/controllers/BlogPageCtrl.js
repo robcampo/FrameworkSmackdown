@@ -7,9 +7,10 @@ angular.module('angular-app').controller('BlogPageCtrl',
 
         var blogIndex = $routeParams.blogIndex;
 
+        // Get the blog that was clicked
         $scope.blog = blogsService.getBlog(blogIndex);
-        $scope.comments = comments.comments;
 
-        console.log('$scope.comments: ', $scope.comments);
+        // Use the comments
+        $scope.comments = comments.comments;
     }
 );

@@ -12,6 +12,7 @@ angular.module('angular-app').factory('blogsService',
                 name: 'My Second Blog',
                 content: 'My second blog dives further into how ...'
             }],
+            // TODO: Add another blog post
 
             /**
              * Helper functions

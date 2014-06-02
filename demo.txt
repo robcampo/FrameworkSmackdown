@@ -1,17 +1,19 @@
 
-AngularJS - Overview
+AngularJS - Code Samples
 
     1.  Bootstrapping               (ng-app)
     2.  Routing                     ($routeProvider)
     3.  Page layout                 (ng-view/templates)
     4.  Data sharing                (services/dependency injection)
-    5.  Server communication        (XHR/$resource)
-    6.  User interaction            (ng-click)
+    5.  Moving pages                (BlogPage)
+    6.  Server communication        (XHR/$resource)
     7.  Custom elements             (directives)
-    8.  Modularization              (modules/folder structure)
-    9.  Updating the view           (changes to model)
-    10. Testing                     (unit testing/protractor)
-    11. Debugging                   (batarang)
-    12. IDE integration             (IntelliJ)
-    13. Extras                      (firebase)
-    14. Advantages ...
+
+
+AngularJS - Extra
+
+    - Modularization                (modules/folder structure)
+    - Testing                       (unit testing/protractor)
+    - Debugging                     (batarang)
+    - IDE integration               (IntelliJ)
+    - Extras                        (firebase)
