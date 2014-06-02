@@ -15,3 +15,12 @@
 .blog-post:hover h4 {
     color: #FFFFFF;
 }
+
+.glyphicon-star {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.glyphicon-star.favorited {
+    color: gold;
+}

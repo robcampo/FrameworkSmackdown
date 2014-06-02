@@ -3,6 +3,7 @@
  */
 
 angular.module('angular-app').config(function($routeProvider) {
+    //
     $routeProvider
         .when("/blogs", {
             controller: "BlogsPageCtrl",
