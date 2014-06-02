@@ -10,7 +10,12 @@ angular.module('angular-app').config(function($routeProvider) {
         })
         .when("/blog/:blogIndex", {
             controller: "BlogPageCtrl",
-            templateUrl: "js/templates/blogPage.html"
+            templateUrl: "js/templates/blogPage.html",
+            resolve: {
+                comments: function (commentsResource) {
+                    return commentsResource.get().$promise;
+                }
+            }
         })
         .otherwise({
             redirectTo: "/blogs"

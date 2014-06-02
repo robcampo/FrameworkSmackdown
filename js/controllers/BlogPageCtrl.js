@@ -3,11 +3,13 @@
  */
 
 angular.module('angular-app').controller('BlogPageCtrl',
-    function ($scope, $routeParams, blogsService) {
+    function ($scope, $routeParams, blogsService, comments) {
 
         var blogIndex = $routeParams.blogIndex;
-        console.log('blogIndex: ', blogIndex);
 
         $scope.blog = blogsService.getBlog(blogIndex);
+        $scope.comments = comments.comments;
+
+        console.log('$scope.comments: ', $scope.comments);
     }
 );

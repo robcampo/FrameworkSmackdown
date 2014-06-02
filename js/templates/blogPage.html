@@ -1,4 +1,12 @@
 <div>
     <h3>{{blog.name}}</h3>
     <p>{{blog.content}}</p>
+
+    <br/><br/>
+
+    <!-- comments -->
+    <h4>Comments</h4>
+    <ul class="list-group">
+        <li class="list-group-item" ng-repeat="comment in comments">{{comment}}</li>
+    </ul>
 </div>
