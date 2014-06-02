@@ -1,0 +1,16 @@
+
+.blog-post {
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+    transition: all .5s;
+}
+
+.blog-post:hover {
+    background-color: #6F47D7;
+    color: #FFFFFF;
+}
+
+.blog-post:hover h4 {
+    color: #FFFFFF;
+}

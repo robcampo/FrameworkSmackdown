@@ -1,0 +1,16 @@
+
+AngularJS - Overview
+
+    1.  Bootstrapping               (ng-app)
+    2.  Routing                     ($routeProvider)
+    3.  Page layout                 (ng-view/templates)
+    3.  Data sharing                (services/dependency injection)
+    4.  Server communication        (XHR/$resource)
+    5.  User interaction            (ng-click)
+    6.  Custom elements             (directives)
+    7.  Updating the view           (changes to model)
+    8.  Testing                     (unit testing/protractor)
+    9.  Debugging                   (batarang)
+    11. IDE integration             (IntelliJ)
+    12. Extras                      (firebase)
+    13. Advantages ...

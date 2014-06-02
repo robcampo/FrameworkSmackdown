@@ -1,0 +1,7 @@
+<div>
+    <h3>Blogs</h3>
+    <div class="blog-post" ng-repeat="blog in blogs" ng-click="blogPageClicked($index)">
+        <h4>{{blog.name}}</h4>
+        <p>{{blog.content}}</p>
+    </div>
+</div>
